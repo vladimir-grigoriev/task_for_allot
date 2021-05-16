@@ -1,7 +1,8 @@
 # Test tasks for Allot
 
-1. Tasks 1 and 2 are located in file "Task1-2.md" in the root of repository
-2. Tasks 3.1, 3.2 and 3.3 are located in "src/" folder ("task3-1.py", "task3-2.py", "task3-3.py")
+1. Tasks 1 and 2 are located in file `Task1-2.md` in the root of repository
+2. Tasks 3.1, 3.2 and 3.3 are located in "src/" folder (`task3-1.py`, `task3-2.py`, `task3-3.py`)
+3. Package `additional functions` contains constants, functions to setUp and tearDown tests and unit conversion
 3. Clone the repository with the command:
 
     ```
