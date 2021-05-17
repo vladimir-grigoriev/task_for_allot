@@ -14,4 +14,15 @@ ________________________
 
 # Why did I choose to learn Python
 
-Well, first of all i think 
+Well, first of all i want to mention that Python is the "swiss knife" of programming. When I startеd to dive into development, I still didn't know in which direction I should move, so I decided to choose the most multipurpose option. Python is most actively used in web development, data science and machine learning, but at the same time, nothing prohibits writing your own desktop or Android application.
+
+Python has both advantages and disadvantages. The advantages are:
+1. Rich standard library available right out of the box. The functionality of the standard library allows you to solve a large number of problems, so before writing your code from the beginning, you can check if there is a solution to this problem in standard Python packages;
+1. A large number of third-party modules, written by users themselves, extending the functionality of the standard library. At the time of this writing, the PyPI (a repository for third-party modules) contains over 300,000 modules, and many of them are actively maintained and developed;
+1. Large community. In the TIOBE rating, the language is in the top 3, so large community allows you to quickly find a solution to your problem, because most likely someone has already encountered it.
+
+In addition to its advantages, the language also has its disadvantages. I believe that the disadvantages include the following:
+1. Due to its versatility, Python is a rather slow programming language. The language is dynamically typed (unlike, for example, C ++ or Go) and interpreted, and also there is the GIL mechanism, which blocks access to a memory area if multiple threads try to access it;
+1. There is no mechanism for protecting variables; everything works on a conditional agreement between programmers. For example, a protected variable declared inside a class can still be accessed from elsewhere in the code.
+
+However, new Python releases and third-party packages try to solve these disadvantages. For example, the numpy library allows you to temporarily disable the GIL, which leads to significant acceleration of computer calculations.
